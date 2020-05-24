@@ -1,0 +1,31 @@
+
+TILESIZE = 64
+
+WIDTH = 32 * 32
+HEIGHT = 24 * 32
+
+FPS = 60
+TITLE = "Tile-Based Game"
+
+
+# COLORS:
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 255)
+
+LIGHTGREY = (75, 75, 75)
+YELLOW = (255, 255, 0)
+BROWN = (50, 30, 0)
+
+WALL_IMG = ''
+
+# PLAYER SETTINGS:
+PLAYER_SPEED = 350
+PLAYER_SIZE = int(0.8 * TILESIZE)
+PLAYER_IMG = 'medievalUnit_12.png'
+
+
+# MOB SETTINGS:
+MOB_IMG = 'medievalUnit_10.png'
